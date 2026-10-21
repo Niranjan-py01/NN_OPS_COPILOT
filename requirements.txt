@@ -1,0 +1,12 @@
+streamlit
+fastapi
+uvicorn[standard]
+requests
+SQLAlchemy
+psycopg[binary]
+qdrant-client
+pypdf
+python-multipart
+pyodbc
+pytest
+python-dotenv

@@ -1,0 +1,4 @@
+{"created_at": "2026-10-17T04:11:43.704239+00:00", "event_type": "dashboard_view", "actor": "local-user", "detail": {"mode": "live"}}
+{"created_at": "2026-10-17T04:11:56.832716+00:00", "event_type": "dashboard_view", "actor": "local-user", "detail": {"mode": "live"}}
+{"created_at": "2026-10-17T04:12:08.852406+00:00", "event_type": "dashboard_view", "actor": "local-user", "detail": {"mode": "live"}}
+{"created_at": "2026-10-17T04:12:26.310910+00:00", "event_type": "knowledge_ingestion", "actor": "local-user", "detail": {"name": "NN_Ops_Copilot_SQL_Server_Knowledge_Base.pdf", "result": false}}

@@ -1,0 +1,20 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_DB: nnops
+      POSTGRES_USER: nnops
+      POSTGRES_PASSWORD: change_me_local_only
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - nnops_pg_data:/var/lib/postgresql/data
+  qdrant:
+    image: qdrant/qdrant:latest
+    ports:
+      - "127.0.0.1:6335:6333"
+    volumes:
+      - nnops_qdrant_data:/qdrant/storage
+volumes:
+  nnops_pg_data:
+  nnops_qdrant_data:
